@@ -1,0 +1,6 @@
+timestamp,symbol,side,qty,take_profit,stop_loss,order_id,result,pnl
+2024-06-12 14:00:00,DOGEUSDT,Buy,5000,0.20,0.19,abcdef12345,OK,15.5
+2024-06-12 14:05:00,BTCUSDT,Buy,0.005,67000,64000,abcdef23456,OK,120.0
+2024-06-12 14:10:00,ETHUSDT,Buy,0.05,3200,3050,abcdef34567,OK,25.0
+2024-06-12 14:15:00,SOLUSDT,Buy,3,160,145,abcdef45678,OK,10.5
+

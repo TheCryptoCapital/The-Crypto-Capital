@@ -1,0 +1,14 @@
+def get_min_qty(symbol):
+    try:
+        # Fetch market info for the symbol
+        response = session.public_query("v2/public/symbols")
+        for symbol_info in response['result']:
+            if symbol_info['name'] == symbol:
+                min_qty = float(symbol_info['lot_size_filter']['min_trading_qty'])
+                return min_qty
+        logging.error(f"No data found for {symbol}")
+        return None
+    except Exception as e:
+        logging.error(f"Error fetching minimum quantity for {symbol}: {e}")
+        return None
+

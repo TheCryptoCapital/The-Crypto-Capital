@@ -1,0 +1,4 @@
+cat trade_log.csv """""""""""""" python3 main.py [C python3 main.py 
+"""""""""""""" head -n 10 trade_log.csv """""""""""""" rm trade_log.csv python3 
+main.py """""""""""""" streamlit run dashboard.py --server.port 8501 cd 
+~/Downloads/reflections_bot_live

@@ -1,0 +1,99 @@
+import time
+from pybit.unified_trading import HTTP
+import config
+from telegram_alerts import send_telegram_message as send_telegram_alert
+from performance_log import log_trade
+import traceback
+
+# Bybit session initialization
+session = HTTP(api_key=config.BYBIT_API_KEY, api_secret=config.BYBIT_API_SECRET)
+
+# Configuration
+symbols = ['APTUSDT', 'SOLUSDT', 'DOGEUSDT', '1000PEPEUSDT']
+trade_risk = 0.02  # Risk 2% per trade
+
+# Helper to safely check float values
+def is_float(value):
+    try:
+        float(value)
+        return True
+    except (ValueError, TypeError):
+        return False
+
+# Fetch current price function
+def get_current_price(symbol):
+    try:
+        response = session.get_tickers(category='linear', symbol=symbol)
+        ticker_list = response.get('result', {}).get('list', [])
+        if ticker_list:
+            return float(ticker_list[0]['lastPrice'])
+        else:
+            print(f"⚠️ No ticker data for {symbol}")
+            return None
+    except Exception as e:
+        print(f"Error fetching price for {symbol}: {e}")
+        return None
+
+# Place market order
+def place_order(symbol, side, qty):
+    try:
+        order = session.place_order(
+            category='linear',
+            symbol=symbol,
+            side=side,
+            orderType='Market',
+            qty=qty
+        )
+        print(f"Order placed: {symbol}, {side}, qty: {qty}")
+        send_telegram_alert(f"Order placed: {symbol} {side}, qty: {qty}")
+        log_trade(symbol, side, qty, sl='N/A', status='submitted', pnl='N/A')
+        return order
+    except Exception as e:
+        print(f"Error placing order for {symbol}: {e}")
+        send_telegram_alert(f"⚠️ Error placing order for {symbol}: {e}")
+
+# Check open positions and auto-close logic
+def auto_close_position(symbol):
+    try:
+        response = session.get_positions(category='linear', symbol=symbol)
+        positions = response.get("result", {}).get("list", [])
+        for pos in positions:
+            print(f"\n📊 Raw position data for {symbol}: {pos}")  # DEBUG
+
+            size_str = str(pos.get('size', '')).strip()
+            pnl_str = str(pos.get('unrealisedPnl', '')).strip()
+
+            print(f"🔍 Cleaned values — size: '{size_str}', pnl: '{pnl_str}'")  # DEBUG
+
+            if is_float(size_str) and is_float(pnl_str):
+                size = float(size_str)
+                pnl = float(pnl_str)
+
+                if size > 0 and pnl / size >= 0.02:
+                    place_order(symbol, 'Sell', size)
+                    send_telegram_alert(f"✅ Closed {symbol} position with profit.")
+                elif size > 0 and pnl / size <= -0.01:
+                    place_order(symbol, 'Sell', size)
+                    send_telegram_alert(f"⛔️ Closed {symbol} position with loss.")
+            else:
+                print(f"⚠️ Skipping {symbol} position due to non-numeric values: size='{size_str}', pnl='{pnl_str}'")
+    except Exception as e:
+        print(f"Auto-close check error ({symbol}): {e}")
+        traceback.print_exc()
+
+# Main trading loop
+while True:
+    for symbol in symbols:
+        price = get_current_price(symbol)
+        if price:
+            print(f"{symbol} current price: {price}")
+
+            # Example entry logic (customize for your strategy)
+            if symbol == 'APTUSDT' and price <= 5.08:
+                qty = round((config.ACCOUNT_BALANCE * trade_risk) / price, 2)
+                place_order(symbol, 'Buy', qty)
+
+            auto_close_position(symbol)
+
+    time.sleep(30)  # Pause for 30 seconds between checks
+

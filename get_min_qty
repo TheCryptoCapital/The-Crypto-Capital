@@ -1,0 +1,15 @@
+def get_min_qty(symbol):
+    try:
+        # Fetch market info for the symbol
+        response = session.query_symbol(symbol=symbol)
+        
+        # Extract the minimum trading quantity from the market info
+        min_qty = float(response['result']['lot_size_filter']['min_trading_qty'])
+        
+        # Return the minimum quantity
+        return min_qty
+    except Exception as e:
+        # Log any errors that occur while fetching the minimum quantity
+        logging.error(f"Error fetching minimum quantity for {symbol}: {e}")
+        return None
+

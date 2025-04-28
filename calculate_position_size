@@ -1,0 +1,7 @@
+kdef calculate_position_size(capital, entry_price, stop_loss, risk_percent, min_qty, max_qty):
+    risk_amount = capital * risk_percent
+    risk_per_unit = abs(entry_price - stop_loss)
+    position_size = risk_amount / risk_per_unit if risk_per_unit else 0
+    position_size = max(min_qty, min(position_size, max_qty))  # Ensure position size is within the allowed range
+    return position_size
+

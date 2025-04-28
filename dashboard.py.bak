@@ -1,0 +1,34 @@
+import streamlit as st
+import pandas as pd
+import os
+
+LOG_FILE = "trade_log.csv"
+st.set_page_config(page_title="Trading Bot Dashboard", layout="wide")
+st.title("📊 Reflections Bot - Live Trade Dashboard")
+
+if os.path.exists(LOG_FILE):
+    df = pd.read_csv(LOG_FILE, parse_dates=["timestamp"] )
+    # only closed trades
+    df_closed = df[df.status == "CLOSED"].sort_values("timestamp")
+
+    st.subheader("📋 Closed Trades")
+    st.dataframe(df_closed, height=350, use_container_width=True)
+
+    total = len(df_closed)
+    uniq  = df_closed.symbol.nunique()
+    netpnl= df_closed.profit.sum()
+
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Total Closed", total)
+    c2.metric("Unique Symbols", uniq)
+    c3.metric("Net Realized P&L", f"${netpnl:,.2f}")
+
+    # PnL Over Time chart
+    pnl_ts = (
+        df_closed.set_index("timestamp")["profit"]
+            .resample("1T").sum().cumsum()
+    )
+    st.subheader("📈 Realized P&L Over Time")
+    st.line_chart(pnl_ts)
+else:
+    st.warning("No trade_log.csv found. Run the bot until at least one trade closes.")

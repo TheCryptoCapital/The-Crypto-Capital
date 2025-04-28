@@ -1,0 +1,2 @@
+timestamp,symbol,side,qty,take_profit,stop_loss,order_id,result,pnl
+2025-04-27 20:46:52,DOGEUSDT,Buy,100,0.22,0.17,bf05ac48-544a-4967-b671-f0289b36a01a,OPEN,0.0

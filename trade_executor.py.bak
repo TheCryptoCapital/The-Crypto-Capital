@@ -1,0 +1,61 @@
+import logging
+from config import BYBIT_API_KEY, BYBIT_API_SECRET
+from pybit.unified_trading import HTTP
+
+client = HTTP(
+    api_key   = BYBIT_API_KEY,
+    api_secret= BYBIT_API_SECRET,
+    domain    = "https://api.bybit.com"
+)
+
+def execute_trade(symbol, side, quantity, entry_price, take_profit, stop_loss):
+    """
+    Places a market order, then attaches TP & SL conditional orders.
+    Returns True if all requests succeed, False otherwise.
+    """
+    try:
+        # 1) Place market order
+        resp = client.place_active_order(
+            symbol=symbol,
+            side=side.upper(),            # "Buy" or "Sell"
+            order_type="Market",
+            qty=quantity,
+            time_in_force="GoodTillCancel",
+            reduce_only=False,
+            close_on_trigger=False,
+        )
+        logging.debug(f"Market order response: {resp}")
+
+        # 2) Take-profit conditional
+        tp_side = "Sell" if side.lower() == "buy" else "Buy"
+        client.place_conditional_order(
+            symbol=symbol,
+            side=tp_side,
+            order_type="TakeProfit",
+            qty=quantity,
+            base_price=entry_price,
+            stop_price=take_profit,
+            time_in_force="GoodTillCancel",
+            reduce_only=True,
+            trigger_by="LastPrice",
+        )
+
+        # 3) Stop-loss conditional
+        client.place_conditional_order(
+            symbol=symbol,
+            side=tp_side,
+            order_type="Stop",
+            qty=quantity,
+            base_price=entry_price,
+            stop_price=stop_loss,
+            time_in_force="GoodTillCancel",
+            reduce_only=True,
+            trigger_by="LastPrice",
+        )
+
+        return True
+
+    except Exception as e:
+        logging.error(f"Trade execution error: {e}")
+        return False
+

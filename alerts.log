@@ -1,0 +1,296 @@
+2025-04-24 16:07:07,747 - INFO - [TEST TRADE] Buy 0.95 ETH/USDT at 1771.23 | TP: 1859.79 | SL: 1735.8
+2025-04-24 16:37:42,125 - INFO - [TEST TRADE] Buy 0.95 ETH/USDT at 1771.23 | TP: 1859.79 | SL: 1735.8
+2025-04-24 17:33:24,478 - INFO - Starting main loop…
+2025-04-24 17:33:24,478 - INFO - [EXECUTED] Buy 16.82 XRPUSDT at 100 | TP: 105.0, SL: 98.0
+2025-04-24 17:33:24,478 - ERROR - Error in XRPUSDT loop: 'bool' object has no attribute 'get'
+2025-04-24 17:33:25,483 - INFO - [EXECUTED] Buy 16.82 SOLUSDT at 100 | TP: 105.0, SL: 98.0
+2025-04-24 17:33:25,484 - ERROR - Error in SOLUSDT loop: 'bool' object has no attribute 'get'
+2025-04-24 17:33:26,489 - INFO - [EXECUTED] Buy 16.82 ETHUSDT at 100 | TP: 105.0, SL: 98.0
+2025-04-24 17:33:26,489 - ERROR - Error in ETHUSDT loop: 'bool' object has no attribute 'get'
+2025-04-24 17:33:27,492 - INFO - [EXECUTED] Buy 16.82 ARBUSDT at 100 | TP: 105.0, SL: 98.0
+2025-04-24 17:33:27,492 - ERROR - Error in ARBUSDT loop: 'bool' object has no attribute 'get'
+2025-04-24 17:33:28,498 - INFO - [EXECUTED] Buy 16.82 BTCUSDT at 100 | TP: 105.0, SL: 98.0
+2025-04-24 17:33:28,498 - ERROR - Error in BTCUSDT loop: 'bool' object has no attribute 'get'
+2025-04-24 18:09:31,941 - INFO - Starting main loop…
+2025-04-24 18:09:32,835 - ERROR - Trade failed for XRPUSDT
+2025-04-24 18:09:33,525 - ERROR - Trade failed for SOLUSDT
+2025-04-24 18:09:34,306 - ERROR - Trade failed for ETHUSDT
+2025-04-24 18:09:34,904 - ERROR - Trade failed for ARBUSDT
+2025-04-24 18:09:35,500 - ERROR - Trade failed for BTCUSDT
+2025-04-24 18:11:58,112 - INFO - Starting main loop…
+2025-04-24 18:11:59,012 - ERROR - Trade failed for XRPUSDT
+2025-04-24 18:11:59,629 - ERROR - Trade failed for SOLUSDT
+2025-04-24 18:12:00,247 - ERROR - Trade failed for ETHUSDT
+2025-04-24 18:12:00,902 - ERROR - Trade failed for ARBUSDT
+2025-04-24 18:12:01,634 - ERROR - Trade failed for BTCUSDT
+2025-04-24 18:33:21,218 - INFO - Starting main loop…
+2025-04-24 18:33:22,190 - ERROR - Trade failed for XRPUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534002258}
+2025-04-24 18:33:22,191 - ERROR - Trade failed for XRPUSDT
+2025-04-24 18:33:22,899 - ERROR - Trade failed for SOLUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534002909}
+2025-04-24 18:33:22,899 - ERROR - Trade failed for SOLUSDT
+2025-04-24 18:33:23,652 - ERROR - Trade failed for ETHUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534003652}
+2025-04-24 18:33:23,653 - ERROR - Trade failed for ETHUSDT
+2025-04-24 18:33:24,289 - ERROR - Trade failed for ARBUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534004366}
+2025-04-24 18:33:24,290 - ERROR - Trade failed for ARBUSDT
+2025-04-24 18:33:25,261 - ERROR - Trade failed for BTCUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534005341}
+2025-04-24 18:33:25,262 - ERROR - Trade failed for BTCUSDT
+2025-04-24 18:37:28,045 - INFO - Starting main loop…
+2025-04-24 18:37:28,872 - ERROR - Trade failed for XRPUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534248953}
+2025-04-24 18:37:28,873 - ERROR - Trade failed for XRPUSDT
+2025-04-24 18:37:29,840 - ERROR - Trade failed for SOLUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534249915}
+2025-04-24 18:37:29,841 - ERROR - Trade failed for SOLUSDT
+2025-04-24 18:37:30,458 - ERROR - Trade failed for ETHUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534250538}
+2025-04-24 18:37:30,458 - ERROR - Trade failed for ETHUSDT
+2025-04-24 18:37:31,066 - ERROR - Trade failed for ARBUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534251147}
+2025-04-24 18:37:31,067 - ERROR - Trade failed for ARBUSDT
+2025-04-24 18:37:31,724 - ERROR - Trade failed for BTCUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534251807}
+2025-04-24 18:37:31,725 - ERROR - Trade failed for BTCUSDT
+2025-04-24 18:41:07,106 - INFO - Starting main loop…
+2025-04-24 18:41:08,266 - ERROR - Trade failed for XRPUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534468349}
+2025-04-24 18:41:08,267 - ERROR - Trade failed for XRPUSDT
+2025-04-24 18:41:08,988 - ERROR - Trade failed for SOLUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534469005}
+2025-04-24 18:41:08,989 - ERROR - Trade failed for SOLUSDT
+2025-04-24 18:41:10,037 - ERROR - Trade failed for ETHUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534470002}
+2025-04-24 18:41:10,038 - ERROR - Trade failed for ETHUSDT
+2025-04-24 18:41:10,695 - ERROR - Trade failed for ARBUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534470779}
+2025-04-24 18:41:10,695 - ERROR - Trade failed for ARBUSDT
+2025-04-24 18:41:11,400 - ERROR - Trade failed for BTCUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534471483}
+2025-04-24 18:41:11,401 - ERROR - Trade failed for BTCUSDT
+2025-04-24 18:43:50,856 - INFO - Starting main loop…
+2025-04-24 18:43:51,739 - ERROR - Trade failed for XRPUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534631825}
+2025-04-24 18:43:51,739 - ERROR - Trade failed for XRPUSDT
+2025-04-24 18:43:52,380 - ERROR - Trade failed for SOLUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534632445}
+2025-04-24 18:43:52,381 - ERROR - Trade failed for SOLUSDT
+2025-04-24 18:43:53,094 - ERROR - Trade failed for ETHUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534633108}
+2025-04-24 18:43:53,095 - ERROR - Trade failed for ETHUSDT
+2025-04-24 18:43:53,690 - ERROR - Trade failed for ARBUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534633776}
+2025-04-24 18:43:53,690 - ERROR - Trade failed for ARBUSDT
+2025-04-24 18:43:54,443 - ERROR - Trade failed for BTCUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534634530}
+2025-04-24 18:43:54,443 - ERROR - Trade failed for BTCUSDT
+2025-04-24 18:46:06,865 - INFO - Starting main loop…
+2025-04-24 18:46:07,779 - ERROR - Trade failed for XRPUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534767849}
+2025-04-24 18:46:07,779 - ERROR - Trade failed for XRPUSDT
+2025-04-24 18:46:08,394 - ERROR - Trade failed for SOLUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534768535}
+2025-04-24 18:46:08,394 - ERROR - Trade failed for SOLUSDT
+2025-04-24 18:46:08,988 - ERROR - Trade failed for ETHUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534769129}
+2025-04-24 18:46:08,990 - ERROR - Trade failed for ETHUSDT
+2025-04-24 18:46:09,772 - ERROR - Trade failed for ARBUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534769802}
+2025-04-24 18:46:09,773 - ERROR - Trade failed for ARBUSDT
+2025-04-24 18:46:10,398 - ERROR - Trade failed for BTCUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534770503}
+2025-04-24 18:46:10,399 - ERROR - Trade failed for BTCUSDT
+2025-04-24 18:47:42,027 - INFO - Starting main loop…
+2025-04-24 18:47:42,801 - ERROR - Trade failed for XRPUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534862932}
+2025-04-24 18:47:42,801 - ERROR - Trade failed for XRPUSDT
+2025-04-24 18:47:43,413 - ERROR - Trade failed for SOLUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534863555}
+2025-04-24 18:47:43,414 - ERROR - Trade failed for SOLUSDT
+2025-04-24 18:47:44,036 - ERROR - Trade failed for ETHUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534864178}
+2025-04-24 18:47:44,037 - ERROR - Trade failed for ETHUSDT
+2025-04-24 18:47:44,808 - ERROR - Trade failed for ARBUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534864950}
+2025-04-24 18:47:44,808 - ERROR - Trade failed for ARBUSDT
+2025-04-24 18:47:45,625 - ERROR - Trade failed for BTCUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745534865768}
+2025-04-24 18:47:45,626 - ERROR - Trade failed for BTCUSDT
+2025-04-24 19:04:18,947 - INFO - Starting main loop…
+2025-04-24 19:04:19,709 - ERROR - Trade failed for XRPUSDT
+2025-04-24 19:04:20,364 - ERROR - Trade failed for SOLUSDT
+2025-04-24 19:04:21,343 - ERROR - Trade failed for ETHUSDT
+2025-04-24 19:04:22,282 - ERROR - Trade failed for ARBUSDT
+2025-04-24 19:04:22,883 - ERROR - Trade failed for BTCUSDT
+2025-04-24 19:25:51,269 - INFO - Starting main loop…
+2025-04-24 19:25:52,184 - ERROR - Trade failed for XRPUSDT
+2025-04-24 19:25:52,898 - ERROR - Trade failed for SOLUSDT
+2025-04-24 19:25:53,495 - ERROR - Trade failed for ETHUSDT
+2025-04-24 19:25:54,471 - ERROR - Trade failed for ARBUSDT
+2025-04-24 19:25:55,310 - ERROR - Trade failed for BTCUSDT
+2025-04-24 19:26:51,652 - INFO - Starting main loop…
+2025-04-24 19:26:52,468 - ERROR - Trade failed for XRPUSDT
+2025-04-24 19:26:53,194 - ERROR - Trade failed for SOLUSDT
+2025-04-24 19:26:53,790 - ERROR - Trade failed for ETHUSDT
+2025-04-24 19:26:54,389 - ERROR - Trade failed for ARBUSDT
+2025-04-24 19:26:55,089 - ERROR - Trade failed for BTCUSDT
+2025-04-24 19:32:23,317 - INFO - Starting main loop…
+2025-04-24 19:32:24,088 - ERROR - Trade failed for XRPUSDT
+2025-04-24 19:32:24,691 - ERROR - Trade failed for SOLUSDT
+2025-04-24 19:32:25,376 - ERROR - Trade failed for ETHUSDT
+2025-04-24 19:32:26,117 - ERROR - Trade failed for ARBUSDT
+2025-04-24 19:32:26,715 - ERROR - Trade failed for BTCUSDT
+2025-04-24 19:43:49,553 - INFO - Starting main loop…
+2025-04-24 19:43:50,842 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538230871}
+2025-04-24 19:43:50,843 - ERROR - Trade failed for XRPUSDT
+2025-04-24 19:43:51,458 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538231570}
+2025-04-24 19:43:51,459 - ERROR - Trade failed for SOLUSDT
+2025-04-24 19:43:52,071 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538232183}
+2025-04-24 19:43:52,071 - ERROR - Trade failed for ETHUSDT
+2025-04-24 19:43:52,729 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538232843}
+2025-04-24 19:43:52,730 - ERROR - Trade failed for ARBUSDT
+2025-04-24 19:43:53,461 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538233514}
+2025-04-24 19:43:53,462 - ERROR - Trade failed for BTCUSDT
+2025-04-24 19:46:15,146 - INFO - Starting main loop…
+2025-04-24 19:46:16,065 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538376134}
+2025-04-24 19:46:16,066 - ERROR - Trade failed for XRPUSDT
+2025-04-24 19:46:16,792 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538376891}
+2025-04-24 19:46:16,793 - ERROR - Trade failed for SOLUSDT
+2025-04-24 19:46:17,453 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538377550}
+2025-04-24 19:46:17,453 - ERROR - Trade failed for ETHUSDT
+2025-04-24 19:46:18,162 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538378244}
+2025-04-24 19:46:18,163 - ERROR - Trade failed for ARBUSDT
+2025-04-24 19:46:18,842 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538378954}
+2025-04-24 19:46:18,843 - ERROR - Trade failed for BTCUSDT
+2025-04-24 19:54:53,442 - INFO - Starting main loop…
+2025-04-24 19:54:54,584 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538894646}
+2025-04-24 19:54:54,585 - ERROR - Trade failed for XRPUSDT
+2025-04-24 19:54:55,633 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538895551}
+2025-04-24 19:54:55,633 - ERROR - Trade failed for SOLUSDT
+2025-04-24 19:54:56,275 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538896370}
+2025-04-24 19:54:56,276 - ERROR - Trade failed for ETHUSDT
+2025-04-24 19:54:56,891 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538897005}
+2025-04-24 19:54:56,892 - ERROR - Trade failed for ARBUSDT
+2025-04-24 19:54:57,525 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745538897643}
+2025-04-24 19:54:57,525 - ERROR - Trade failed for BTCUSDT
+2025-04-24 20:17:50,589 - INFO - Starting main loop…
+2025-04-24 20:17:51,420 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745540271525}
+2025-04-24 20:17:51,422 - ERROR - Trade failed for XRPUSDT
+2025-04-24 20:17:52,043 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745540272127}
+2025-04-24 20:17:52,044 - ERROR - Trade failed for SOLUSDT
+2025-04-24 20:17:52,748 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745540272809}
+2025-04-24 20:17:52,748 - ERROR - Trade failed for ETHUSDT
+2025-04-24 20:17:53,437 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745540273484}
+2025-04-24 20:17:53,438 - ERROR - Trade failed for ARBUSDT
+2025-04-24 20:17:54,035 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745540274140}
+2025-04-24 20:17:54,036 - ERROR - Trade failed for BTCUSDT
+2025-04-24 20:39:28,524 - INFO - Starting main loop…
+2025-04-24 20:39:29,310 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745541569394}
+2025-04-24 20:39:29,311 - ERROR - Trade failed for XRPUSDT
+2025-04-24 20:39:30,029 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745541570046}
+2025-04-24 20:39:30,030 - ERROR - Trade failed for SOLUSDT
+2025-04-24 20:39:30,652 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745541570722}
+2025-04-24 20:39:30,653 - ERROR - Trade failed for ETHUSDT
+2025-04-24 20:39:31,642 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745541571529}
+2025-04-24 20:39:31,643 - ERROR - Trade failed for ARBUSDT
+2025-04-24 20:39:32,244 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745541572325}
+2025-04-24 20:39:32,245 - ERROR - Trade failed for BTCUSDT
+2025-04-24 21:08:32,453 - INFO - Starting main loop…
+2025-04-24 21:08:33,302 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745543313341}
+2025-04-24 21:08:33,303 - ERROR - Trade failed for XRPUSDT
+2025-04-24 21:08:33,905 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745543313975}
+2025-04-24 21:08:33,906 - ERROR - Trade failed for SOLUSDT
+2025-04-24 21:08:34,940 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745543314581}
+2025-04-24 21:08:34,942 - ERROR - Trade failed for ETHUSDT
+2025-04-24 21:08:35,543 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745543315613}
+2025-04-24 21:08:35,544 - ERROR - Trade failed for ARBUSDT
+2025-04-24 21:08:36,138 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745543316209}
+2025-04-24 21:08:36,139 - ERROR - Trade failed for BTCUSDT
+2025-04-24 21:22:13,434 - INFO - Starting main loop…
+2025-04-24 21:22:14,278 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745544134342}
+2025-04-24 21:22:14,279 - ERROR - Trade failed for XRPUSDT
+2025-04-24 21:22:14,893 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745544135026}
+2025-04-24 21:22:14,893 - ERROR - Trade failed for SOLUSDT
+2025-04-24 21:22:15,495 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745544135628}
+2025-04-24 21:22:15,496 - ERROR - Trade failed for ETHUSDT
+2025-04-24 21:22:16,167 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745544136299}
+2025-04-24 21:22:16,168 - ERROR - Trade failed for ARBUSDT
+2025-04-24 21:22:17,162 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745544137295}
+2025-04-24 21:22:17,163 - ERROR - Trade failed for BTCUSDT
+2025-04-24 21:50:03,419 - INFO - Starting main loop…
+2025-04-24 21:50:04,206 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745545804356}
+2025-04-24 21:50:04,207 - ERROR - Trade failed for XRPUSDT
+2025-04-24 21:50:04,966 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745545805131}
+2025-04-24 21:50:04,967 - ERROR - Trade failed for SOLUSDT
+2025-04-24 21:50:05,629 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745545805794}
+2025-04-24 21:50:05,630 - ERROR - Trade failed for ETHUSDT
+2025-04-24 21:50:06,371 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745545806415}
+2025-04-24 21:50:06,372 - ERROR - Trade failed for ARBUSDT
+2025-04-24 21:50:07,049 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745545807214}
+2025-04-24 21:50:07,049 - ERROR - Trade failed for BTCUSDT
+2025-04-24 22:18:39,183 - INFO - Starting main loop…
+2025-04-24 22:18:40,143 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745547520197}
+2025-04-24 22:18:40,144 - ERROR - Trade failed for XRPUSDT
+2025-04-24 22:18:40,745 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745547520865}
+2025-04-24 22:18:40,746 - ERROR - Trade failed for SOLUSDT
+2025-04-24 22:18:41,431 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745547521465}
+2025-04-24 22:18:41,432 - ERROR - Trade failed for ETHUSDT
+2025-04-24 22:18:42,234 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745547522315}
+2025-04-24 22:18:42,234 - ERROR - Trade failed for ARBUSDT
+2025-04-24 22:18:42,829 - ERROR - 🔍 Full Bybit response: {"retCode":10004,"retMsg":"Signature for this request is not valid.","result":{},"retExtInfo":{},"time":1745547522950}
+2025-04-24 22:18:42,830 - ERROR - Trade failed for BTCUSDT
+2025-04-24 23:41:52,524 - INFO - Starting main loop…
+2025-04-24 23:41:53,621 - ERROR - Trade failed for XRPUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745552513567}
+2025-04-24 23:41:53,622 - ERROR - Trade failed for XRPUSDT
+2025-04-24 23:41:54,331 - ERROR - Trade failed for SOLUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745552514241}
+2025-04-24 23:41:54,331 - ERROR - Trade failed for SOLUSDT
+2025-04-24 23:41:54,924 - ERROR - Trade failed for ETHUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745552514900}
+2025-04-24 23:41:54,924 - ERROR - Trade failed for ETHUSDT
+2025-04-24 23:41:55,589 - ERROR - Trade failed for ARBUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745552515504}
+2025-04-24 23:41:55,590 - ERROR - Trade failed for ARBUSDT
+2025-04-24 23:41:56,254 - ERROR - Trade failed for BTCUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745552516230}
+2025-04-24 23:41:56,254 - ERROR - Trade failed for BTCUSDT
+2025-04-25 08:28:34,874 - INFO - Starting main loop…
+2025-04-25 08:28:35,771 - ERROR - Trade failed for XRPUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745584115820}
+2025-04-25 08:28:35,772 - ERROR - Trade failed for XRPUSDT
+2025-04-25 08:28:36,386 - ERROR - Trade failed for SOLUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745584116453}
+2025-04-25 08:28:36,386 - ERROR - Trade failed for SOLUSDT
+2025-04-25 08:28:37,007 - ERROR - Trade failed for ETHUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745584117078}
+2025-04-25 08:28:37,008 - ERROR - Trade failed for ETHUSDT
+2025-04-25 08:28:37,665 - ERROR - Trade failed for ARBUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745584117734}
+2025-04-25 08:28:37,666 - ERROR - Trade failed for ARBUSDT
+2025-04-25 08:28:38,391 - ERROR - Trade failed for BTCUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745584118399}
+2025-04-25 08:28:38,393 - ERROR - Trade failed for BTCUSDT
+2025-04-25 10:26:45,610 - INFO - Starting main loop…
+2025-04-25 10:26:46,408 - ERROR - Trade failed for XRPUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745591206553}
+2025-04-25 10:26:46,409 - ERROR - Trade failed for XRPUSDT
+2025-04-25 10:26:47,483 - ERROR - Trade failed for SOLUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745591207688}
+2025-04-25 10:26:47,483 - ERROR - Trade failed for SOLUSDT
+2025-04-25 10:26:48,313 - ERROR - Trade failed for ETHUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745591208520}
+2025-04-25 10:26:48,313 - ERROR - Trade failed for ETHUSDT
+2025-04-25 10:26:49,096 - ERROR - Trade failed for ARBUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745591209294}
+2025-04-25 10:26:49,097 - ERROR - Trade failed for ARBUSDT
+2025-04-25 10:26:49,813 - ERROR - Trade failed for BTCUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745591209963}
+2025-04-25 10:26:49,813 - ERROR - Trade failed for BTCUSDT
+2025-04-25 10:31:27,228 - INFO - Starting main loop…
+2025-04-25 10:31:34,354 - INFO - [EXECUTED] Buy 15.0 XRPUSDT at 100 | TP: 105.0, SL: 98.0
+2025-04-25 10:31:34,354 - ERROR - Trade failed for XRPUSDT
+2025-04-25 10:31:34,676 - INFO - [EXECUTED] Buy 15.0 SOLUSDT at 100 | TP: 105.0, SL: 98.0
+2025-04-25 10:31:34,677 - ERROR - Trade failed for SOLUSDT
+2025-04-25 10:31:35,340 - ERROR - Trade failed for ETHUSDT: bybit {"retCode":110007,"retMsg":"ab not enough for new order","result":{},"retExtInfo":{},"time":1745591495550}
+2025-04-25 10:31:35,340 - ERROR - Trade failed for ETHUSDT
+2025-04-25 10:31:35,654 - INFO - [EXECUTED] Buy 15.0 ARBUSDT at 100 | TP: 105.0, SL: 98.0
+2025-04-25 10:31:35,654 - ERROR - Trade failed for ARBUSDT
+2025-04-25 10:31:36,096 - ERROR - Trade failed for BTCUSDT: bybit {"retCode":110007,"retMsg":"ab not enough for new order","result":{},"retExtInfo":{},"time":1745591496178}
+2025-04-25 10:31:36,096 - ERROR - Trade failed for BTCUSDT
+2025-04-25 11:32:11,414 - INFO - Starting main loop...
+2025-04-25 11:32:12,653 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745595132555}
+2025-04-25 11:32:12,654 - ERROR - Unexpected response type: False
+2025-04-25 11:32:14,304 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745595134411}
+2025-04-25 11:32:14,304 - ERROR - Unexpected response type: False
+2025-04-25 11:32:16,450 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745595136564}
+2025-04-25 11:32:16,451 - ERROR - Unexpected response type: False
+2025-04-25 11:32:18,101 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745595138189}
+2025-04-25 11:32:18,102 - ERROR - Unexpected response type: False
+2025-04-25 11:32:20,118 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745595140232}
+2025-04-25 11:32:20,119 - ERROR - Unexpected response type: False
+2025-04-25 12:13:12,752 - INFO - Starting main loop...
+2025-04-25 12:13:13,571 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745597593754}
+2025-04-25 12:13:13,571 - ERROR - Unexpected response type: False
+2025-04-25 12:13:15,194 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745597595376}
+2025-04-25 12:13:15,194 - ERROR - Unexpected response type: False
+2025-04-25 12:13:17,008 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745597597192}
+2025-04-25 12:13:17,009 - ERROR - Unexpected response type: False
+2025-04-25 12:13:18,738 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745597598856}
+2025-04-25 12:13:18,739 - ERROR - Unexpected response type: False
+2025-04-25 12:13:20,413 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745597600568}
+2025-04-25 12:13:20,414 - ERROR - Unexpected response type: False
+2025-04-25 12:32:21,360 - INFO - Starting main loop...
+2025-04-25 12:32:22,495 - ERROR - ❌ Trade failed for XRPUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745598742553}
+2025-04-25 12:32:22,495 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745598742553}
+2025-04-25 12:32:22,495 - ERROR - Trade failed for XRPUSDT
+2025-04-25 12:32:24,274 - ERROR - ❌ Trade failed for SOLUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745598744282}
+2025-04-25 12:32:24,274 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745598744282}
+2025-04-25 12:32:24,274 - ERROR - Trade failed for SOLUSDT
+2025-04-25 12:32:26,045 - ERROR - ❌ Trade failed for ETHUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745598746151}
+2025-04-25 12:32:26,046 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745598746151}
+2025-04-25 12:32:26,046 - ERROR - Trade failed for ETHUSDT
+2025-04-25 12:32:27,688 - ERROR - ❌ Trade failed for ARBUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745598747769}
+2025-04-25 12:32:27,689 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745598747769}
+2025-04-25 12:32:27,689 - ERROR - Trade failed for ARBUSDT
+2025-04-25 12:32:29,433 - ERROR - ❌ Trade failed for BTCUSDT: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745598749537}
+2025-04-25 12:32:29,434 - ERROR - 🔍 Full Bybit response: {'retCode': 10004, 'retMsg': 'Signature for this request is not valid.', 'result': {}, 'retExtInfo': {}, 'time': 1745598749537}
+2025-04-25 12:32:29,434 - ERROR - Trade failed for BTCUSDT

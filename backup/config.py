@@ -1,0 +1,27 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+# config.py
+
+BYBIT_API_KEY = 'tBpLZGsXSbV3rA9Koq'
+BYBIT_API_SECRET = 'AHPzOnIonFl42LGdGpzwgCRPEA0qy8FD0Qwz'
+
+TELEGRAM_BOT_TOKEN = '7934261344:AAFWPngh0AuY5K9SWtxpwQ_XMwYlyGlSnKo'
+TELEGRAM_CHAT_ID = '7346988127'
+
+ACCOUNT_BALANCE = 2129
+CAPITAL = 2129  # ← match your latest balance
+LEVERAGE = 5
+DAILY_PROFIT_TARGET = 1000
+DAILY_MAX_LOSS = 500
+
+# alias for backward-compatibility
+API_KEY    = BYBIT_API_KEY
+API_SECRET = BYBIT_API_SECRET
+
+EMAIL_SENDER = os.getenv("EMAIL_SENDER")
+EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
+EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
+
