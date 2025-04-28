@@ -1,2 +1,9 @@
 requests
 pybit
+fastapi
+uvicorn
+python-dotenv
+pybit
+ta
+pandas
+
