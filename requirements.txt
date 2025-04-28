@@ -7,4 +7,5 @@ pybit
 ta
 pandas
 plotly
+jinja2
 
