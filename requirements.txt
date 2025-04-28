@@ -6,4 +6,5 @@ python-dotenv
 pybit
 ta
 pandas
+plotly
 
